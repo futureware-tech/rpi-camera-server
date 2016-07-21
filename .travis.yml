@@ -1,0 +1,6 @@
+script:
+- curl https://raw.githubusercontent.com/dasfoo/travis/master/shell.sh | sh -s -- capture capture-server
+
+branches:
+  only:
+  - master
